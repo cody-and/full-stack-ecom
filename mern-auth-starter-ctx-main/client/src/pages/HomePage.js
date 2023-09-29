@@ -11,7 +11,7 @@ const HomePage = () => {
       <h1>Home Page</h1>
 
       { currUser.status === "notfound" ? (
-        <p>You are not logged in.</p>
+        <p>You are not logged in. </p>
       ) : (
         <p>You are logged in.</p>
       )}
