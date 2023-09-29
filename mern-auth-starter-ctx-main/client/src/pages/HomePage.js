@@ -12,12 +12,12 @@ const HomePage = () => {
     justifyContent: "flex-start",
     alignItems: "center",
     height: "100vh", // Adjust the height as needed
-    padding: "25%",
+    padding: "15%",
   };
 
   const contentStyle = {
     maxWidth: "600px", // Adjust the maximum width of the content box
-    padding: "20px",
+    padding: "30px",
     border: "1px solid #ddd", // Border style
     boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.2)", // Box shadow for a raised effect
   };
