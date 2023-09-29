@@ -1,14 +1,19 @@
+import React from 'react';
 
-
-
-
-const Wrapper = ({children}) => {
+const Wrapper = ({ children }) => {
+  const backgroundImageStyle = {
+    padding: 0,
+    margin: 0,
+    minHeight: '100vh', 
+    backgroundImage: `url(${process.env.PUBLIC_URL}/e-com-bg.png)`,
+    backgroundSize: 'cover', 
+  };
 
   return (
-    <div style={{ padding: 0, margin: 0, height: "100vh", backgroundColor: "#111"}}>
-      { children }
+    <div style={backgroundImageStyle}>
+      {children}
     </div>
-  )
-}
+  );
+};
 
-export default Wrapper
+export default Wrapper;
