@@ -9,17 +9,18 @@ const HomePage = () => {
 
   const containerStyle = {
     display: "flex",
-    justifyContent: "flex-start",
-    alignItems: "center",
-    height: "100vh", // Adjust the height as needed
-    padding: "15%",
+    justifyContent: "center", 
+    alignItems: "center", 
+    height: "100vh",
   };
 
   const contentStyle = {
-    maxWidth: "600px", // Adjust the maximum width of the content box
+    maxWidth: "600px",
     padding: "30px",
-    border: "1px solid #ddd", // Border style
-    boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.2)", // Box shadow for a raised effect
+    border: "1px solid #ddd",
+    boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.2)",
+    backgroundColor: "white",
+    textAlign: "left", 
   };
 
   return (
@@ -42,7 +43,9 @@ const HomePage = () => {
         <p>
           Unveil the beauty of your living spaces and infuse them with personality. Join our community of decor enthusiasts, and let your imagination flourish.
         </p>
-        <Link to="/shop" className="btn btn-primary">Shop Now</Link>
+        <Link to="/shop" className="btn btn-primary">
+          Shop Now
+        </Link>
       </div>
     </div>
   );

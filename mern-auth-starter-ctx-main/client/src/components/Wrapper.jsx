@@ -5,7 +5,7 @@ const Wrapper = ({ children }) => {
     padding: 0,
     margin: 0,
     minHeight: '100vh',
-    backgroundImage: `url(${process.env.PUBLIC_URL}/e-com-bg.png)`,
+    backgroundImage: `url(${process.env.PUBLIC_URL}/e-com-bg2.png)`,
     backgroundSize: 'cover',
   };
 
