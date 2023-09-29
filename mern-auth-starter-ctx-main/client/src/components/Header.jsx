@@ -17,15 +17,15 @@ const Header = () => {
               </Nav.Item>
 
               <Nav.Item>
+                <Nav.Link href="/showroom" style={{ color: "black" }}>Showroom</Nav.Link>
+              </Nav.Item>
+
+              <Nav.Item>
                 <Nav.Link href="/shop" style={{ color: "black" }}>Shop</Nav.Link>
               </Nav.Item>
 
               <Nav.Item>
                 <Nav.Link href="/new-arrivals" style={{ color: "black" }}>New Arrivals</Nav.Link>
-              </Nav.Item>
-
-              <Nav.Item>
-                <Nav.Link href="/collections" style={{ color: "black" }}>Collections</Nav.Link>
               </Nav.Item>
 
               <Nav.Item>
